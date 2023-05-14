@@ -11,3 +11,7 @@
 .check_badge{
   padding-right: 10px;
 }
+
+ul {
+  list-style-type: none;
+}
