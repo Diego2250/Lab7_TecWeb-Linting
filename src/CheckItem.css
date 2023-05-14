@@ -1,12 +1,13 @@
-.badges {
+.badges{
   color: white;
+  font-weight: bold;
 }
 
-.badge {
+.badge{
   display: inline;
   padding: 10px;
 }
 
-.check_badge {
+.check_badge{
   padding-right: 10px;
 }

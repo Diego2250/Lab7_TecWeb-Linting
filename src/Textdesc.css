@@ -1,12 +1,38 @@
-.textdesc {
+
+.textdesc{
+  margin-top: 40px;
+  color: white;
+  font-size: 22px;
+}
+
+.textdescpar{
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.textdesc span{
+  margin-top: 20px;
+  font: inherit;
+  font-weight: 800;
+  vertical-align: baseline;
+  white-space: nowrap;
+  padding: 0 0 5px;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.textdesc-paragraph{
   color: white;
   font-size: 15px;
   text-align: center;
 }
 
-.textdescpar {
+.textdescpar-bold{
   color: white;
   font-size: 12px;
   text-align: center;
-  text-align: center;
+  font-weight: bold;
 }
+
+

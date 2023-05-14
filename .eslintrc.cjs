@@ -4,22 +4,28 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    "plugin:react/recommended",
-    "airbnb",
-    "prettier"
+    'plugin:react/recommended',
+    'airbnb',
+    'plugin:prettier/recommended',
   ],
-  overrides: [],
+  overrides: [
+  ],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  plugins: ["react", "prettier"],
+  plugins: [
+    'react',
+  ],
   rules: {
-    semi: ["error", "never"],
-    "max-len": ["error", { code: 120 }],
-    "prefer-arrow-callback": "error",
-    quotes: ["error", "double"],
-    "react/function-component-definition": "off",
-    "prettier/prettier": "error"
+    "semi": [
+      "error",
+      "never"
+    ],
+    "max-len" : [
+      "warn",
+      {"code":120}
+    ],
+    "prettier/prettier": ["warn", {"semi":false, "tabWidth": 4, 'endOfLine': 'auto'}]
   },
 };
